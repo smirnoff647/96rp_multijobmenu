@@ -1,8 +1,6 @@
 function CreateMenu()
     local job = QBX.PlayerData.job
     local jobs = QBX.PlayerData.jobs
-    print(json.encode(job))
-    print(json.encode(jobs))
     local options = {
         {
             title = 'Primary job: '.. job.label,
